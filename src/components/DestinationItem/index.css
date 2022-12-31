@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.li {
+  list-style-type: none;
+  width: 80%;
+}
+
+.img {
+  width: 100%;
+}
+
+.imgHeading {
+  font-size: 25px;
+}
+
+@media (min-width: 768px) {
+  .li {
+    width: 45%;
+  }
+
+  .imgHeading {
+    font-size: 35px;
+  }
+}
